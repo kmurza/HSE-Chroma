@@ -1,7 +1,7 @@
 FROM python:3.13
-WORKDIR /PythonProject
-COPY /PythonProject/requirements.txt .
+WORKDIR /app
+COPY PythonProject/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
+COPY PythonProject/ .
 EXPOSE 9999
 CMD ["python", "main.py"]

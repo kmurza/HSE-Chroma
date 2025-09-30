@@ -2,7 +2,7 @@
 import os
 
 # Токен бота (замените на ваш токен)
-BOT_TOKEN = os.getenv('BOT_TOKEN', "8408334614:AAHCzDiB47bDV3KiDJqv5YHeop4nVF4MpxM")
+BOT_TOKEN = os.getenv('BOT_TOKEN', "8203943846:AAF6L1OwqxX5Y9THZ1TQhgEWNOBMEuXIpuU")
 
 # Пути к файлам
 DATABASE_PATH = "data/salon_bot.db"
@@ -52,4 +52,5 @@ KEYBOARDS = {
         ['🔙 Назад в меню']
     ]
 }
+
 
